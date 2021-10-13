@@ -1,0 +1,41 @@
+=== Description de l’état de l’art
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+
+*_Note : 1 page max._*
+
+Décrivez, en les citant via la bibliographie, les approches/produits
+ressemblant à votre projet et les différences éventuelles. Illustrez
+avec des images si besoin. Utilisez des renvois vers votre
+bibliographie : « comme démontré dans [2], … »
+
+==== XXX
+
+Et magnis dis parturient montes, nascetur ridiculus mus.
+
+Aenean risus dui, volutpat non, posuere vitae, sollicitudin in, urna.
+Nam eget eros a enim pulvinar rhoncus. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisis
+massa ut massa. Sed nisi purus, malesuada eu, porta vulputate, suscipit
+auctor, nunc.
+
+==== ZZZ
+
+Et magnis dis parturient montes, nascetur ridiculus mus.
+
+Aenean risus dui, volutpat non, posuere vitae, sollicitudin in, urna.
+Nam eget eros a enim pulvinar rhoncus. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisis
+massa ut massa. Sed nisi purus, malesuada eu, porta vulputate, suscipit
+auctor, nunc.
+
+==== Exemples de citations
+
+Les références bibliographiques sont regroupées dans le fichier `References.adoc`
+à la racine du répertoire `rapport`.
+On peut y faire référence dans toutes les sous parties du document.
+
+On peut citer comme exemple l'article de Claude E. Shannon sur la
+théorie de la communication <<RefShannon>>
+ou, bien évidement, la vitrine des projets PACT <<VitrinePACT>>.
+
+Voir <<TOTO,la référence>> très intéressante elle aussi.

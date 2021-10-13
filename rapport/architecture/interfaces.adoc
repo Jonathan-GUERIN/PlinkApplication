@@ -1,0 +1,23 @@
+=== Description des interfaces (PAN1 / PAN2)
+
+Pour le PAN1, il faut identifier et décrire sommairement toutes les
+interfaces entre modules.
+
+Pour le PAN2, il faut une description complète des interfaces.
+
+Il faut ici une description textuelle de chaque interface, c'est-à-dire chaque
+échange entre deux blocs.
+Si c’est une interface entre deux blocs informatiques, c’est une interface
+Java.
+S’il y a des échanges de données complexes, il faut en décrire le format avec
+précision.
+Si c’est une interface entre deux blocs électroniques, c’est une description
+des signaux électroniques ou protocoles utilisés.
+
+==== InterfaceBloc1-2
+
+Description textuelle d’interface
+
+==== InterfaceBloc2-4
+
+Description textuelle d’interface
