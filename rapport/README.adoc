@@ -25,31 +25,36 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 === Tuteur
 
-* xx yy
+* Laurent Sauvage
 
 === Encadrant génie logiciel
 
-* xx yy
+* Yuan Yao
 
 == Résumé du sujet choisi en français (PAN1)
 
 *_Note: 15 lignes max_*
 
-Décrire votre projet sans le scénariser : De quoi s’agit-il ? En quoi
-cette idée est compatible avec le thème de PACT ? Qu’est-ce qu’il
-permettrait de faire de façon générale.
+Notre projet consiste à détecter les maladies des plantes en les prenant en photo. Lorsque l'utilisateur, qu'il soit un agriculteur, un jardinier, ou un particulier, remarque une plante qui lui paraît malade, il prend en photo une de ses feuilles (certaines conditions de prise de photo seront à respecter pour garantir la meilleure précision possible). L’application lui indique dans un second temps si la plante est malade et le cas échéant de quelle maladie il s’agit.
+
+Des solutions de soins pour les plantes seront ensuite proposées: des tutos, des produits et des contacts d’expert dans le cas d’insuffisance des soins.
+
+Notre projet participe à réponse à la question : "Comment explorer, découvrir et profiter de la nature sans lui nuire ?". L'agriculture exploite les ressources naturelles à grande échelle. Détecter les maladies des plantes et être capable de les traiter permet d'en prendre soin en limitant l'usage de pesticides qui sont nocifs pour l'environnement.
+
+
 
 == English Summary (PAN1)
 
 *_Note : 15 lignes max, version anglaise du texte précédent_*
 
-Ligula dapibus egestas. Donec sed velit ac lectus mattis sagittis.
+Our project consists in detecting plant diseases by taking pictures of them. When the user, whether he is a farmer, a gardener or a private individual, notices a plant that looks sick, he takes a picture of one of its leaves (certain conditions for taking pictures will be required to ensure the best accuracy possible). Secondly, the app indicates if the plant is sick and if so, which disease it is.
 
-In hac habitasse platea dictumst. Maecenas in ligula. Duis tincidunt
-odio sollicitudin quam. Nullam non mauris. Phasellus lacinia, velit sit
-amet bibendum euismod, leo diam interdum ligula, eu scelerisque sem
-purus in tellus.
+Care solutions for plants will be then suggested : tutorials, products and expert contacts in case of insufficient care.
 
+Our project participates in answering the question : "How to explore, discover and take advantage of the nature without damaging it ?". Agriculture exploits natural resources on a large scale. Detecting plant diseases and being able to treat them allows taking care of them while limiting the use of pesticides that are detrimental to the environment.
+
+
+////
 *Notes concenant le rapport*
 
 Les différentes pages du document sont rédigées en utilisant le langage
@@ -66,14 +71,20 @@ différents fichiers) se trouve dans le fichier courant.
 utilisées pour l'instant. Vous pouvez par exemple commenter ces parties non
 utilisées pour qu'elles n'apparaissent pas dans le document final. En Asciidoc,
 il suffit de les précéder de deux slashs (`//`).
+////
+
 
 // en PDF on ne peut pas controler la position de la toc
 // Macros non supportées
+
+////
 ifndef::backend-pdf[]
 == Table des matières
 :toc-title:
 toc::[]
 endif::[]
+////
+
 
 // On numérote le reste des sections
 :sectnums:
