@@ -12,16 +12,16 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 // Partie non numérotée
 :sectnums!:
-== « Nom du groupe »
+== « Groupe 6.3 »
 
 === Membres du groupe
 
-* Nom1
-* Nom2
-* Nom3
-* Nom4
-* Nom5
-* Nom6
+* Martin Chavaran
+* Amine Mirhom
+* Romain Darous
+* Jonathan Guérin
+* Alex Phimanesone
+* Pauline Escavi
 
 === Tuteur
 
