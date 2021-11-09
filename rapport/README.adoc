@@ -122,7 +122,7 @@ include::organisation/planification.adoc[Diagramme de planification temporel des
 include::organisation/plan-tests.adoc[Plans de test (PAN2+)]
 
 <<<
-
+////
 [bibliography]
 == Bibliographie (PAN1+)
 
@@ -130,7 +130,8 @@ include::References.adoc[Bibliographie]
 
 <<<
 
-//== Annexes
+== Annexes
+////
 
 include::annexes/modifications.adoc[Modifications (PAN2+)]
 
