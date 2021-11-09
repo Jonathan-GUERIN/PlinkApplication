@@ -6,7 +6,7 @@ encadrées par les experts SES. Vous pouvez mettre un scénario amélioré
 comprendre au jury PACT les différentes étapes d’utilisation de votre
 produit/service ou si vous avez changé d’idées entre-temps.
 
-==== XX
+==== 
 
 Bertrand, au cours de son inspection journalière, repère dans son champ un
 plant de tomate lui paraissant légèrement anormal. Il n’est pas sûr que la plante
@@ -20,4 +20,5 @@ l’application lui propose des solutions: un tutoriel écrit pour soigner soi-m
 plante, un historique des maladies qu'il a pu rencontrer, des produits pour soigner la plante et enfin une option pour appeler des
 techniciens spécialisés et situés à proximité de chez lui.
 
-==== YY
+==== 
+Grâce à l'application, Bertrand a pu éviter de perdre une partie de son exploitation agricole à cause du « virus de la mosaïque ». Il n'a alors pas du utiliser des pesticides, nuisibles à l'environnement et a alors limité ses pertes agricoles.
