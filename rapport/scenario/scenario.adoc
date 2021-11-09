@@ -16,7 +16,8 @@ photo la feuille de tomate et l’application lui indique : « le plant est infe
 virus de la mosaïque de la tomate! ».
 ====
 image::../images/image_d_utilisation.jpg[Image d'utilisation pratique, 600,500]
-====
+
+
 Bertrand se sent perdu face à cette maladie encore inconnue. Mais
 l’application lui propose des solutions: un tutoriel écrit pour soigner soi-même la
 plante, un historique des maladies qu'il a pu rencontrer, des produits pour soigner la plante et enfin une option pour appeler des
