@@ -16,9 +16,14 @@ disponibles de ce que vous allez produire (coder) vous-même. Vous ne
 devez pas réinventer la roue, mais vous ne devez pas non plus avoir votre
 projet tout fait en encapsulant un programme déjà existant.
 
-===== NomBloc1
+===== Bloc 1: Application Android
 
-Description textuelle du bloc 1.
+Ce bloc correspond à l'application Android.
+-On distinguera deux versions d'utilisation de l'application, la version pro et la version amateur.
+-Ensuite il y a la possibilité de s'identifier à l'aide d'un compte et d'en créer un si ce n'est pas déjà fait.
+-Identifier ou non, l'utilisateur pourra commencer un diagnostic en prenant une photo d'un feuille de plante qu'il soupçonne malade. L'application affichera ensuite les maladies détectées (avec des pourcentage de probabilité), le type de plante et des solutions de soins. 
+-Si l'utilisateur
+
 
 ===== NomBloc2
 
