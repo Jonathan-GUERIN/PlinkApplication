@@ -1,5 +1,5 @@
 === Description des interfaces (PAN1 / PAN2)
-
+////
 Pour le PAN1, il faut ident/Users/paulineescavi/Documents/1A/PACT/gitpact/rapport/architecture/Interfaces/interfaces.adocifier et décrire sommairement toutes les
 interfaces entre modules.
 
@@ -13,7 +13,7 @@ S’il y a des échanges de données complexes, il faut en décrire le format av
 précision.
 Si c’est une interface entre deux blocs électroniques, c’est une description
 des signaux électroniques ou protocoles utilisés.
-
+////
 ==== InterfaceBloc 1 - 4
 
 Interface de 1 vers 4:
