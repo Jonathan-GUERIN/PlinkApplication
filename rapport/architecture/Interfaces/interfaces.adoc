@@ -29,13 +29,13 @@ Interface de 4 vers 1:
 
 
 
-==== InterfaceBloc 2-4
+==== InterfaceBloc 2 - 4
 
 Interface de 4 vers 2:
 
 -Transmission de la photo réceptionnée à la partie qui gère le détourage des plantes et le formatage des images pour qu'elles soient conformes au type de photos de la base de donnée. 
 
-==== InterfaceBloc 4-3
+==== InterfaceBloc 4 - 3
 
 Interface de 4 vers 3:
 
@@ -48,23 +48,23 @@ Interface de 3 vers 4:
 -Transmission des données d'un utilisateurs: historique, identifiants et mot de passe (qui restent invisibles pour l'utilisateur (au cas où ce n'est pas le détenteur du compte) mais qui permettent de comparer avec ce que l'utilisateur aura rentrer pour s'authentifier).
 -Transmission des notifications (rappels etc)
 
-==== InterfaceBloc 2-5
+==== InterfaceBloc 2 - 5
 
 Interface de 2 vers 5:
 
 -Envoie de la photo traitée à la partie IA pour une reconnaissance de la plante et des maladies possibles
 
-==== InterfaceBloc 3-5
+==== InterfaceBloc 3 - 5
 
 Le réseau de neurones s'appuie sur la base de donnée constamment enrichie pour reconnaître plante et maladies.
 
-==== InterfaceBloc 4-5
+==== InterfaceBloc 4 - 5
 
 Interface de 5 vers 4:
 
 -Transmission des informations sur la plante reconnue, et sur les maladies possibles avec leur pourcentage de sureté. 
 
-==== InterfaceBloc 6-1à5
+==== InterfaceBloc 6 - 1 à 5
 
 -Les codes développés dans les blocs 1 à 5 devront s'intégrés les uns les autres. 
 
