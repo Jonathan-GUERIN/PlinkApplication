@@ -60,7 +60,7 @@ Le réseau de neurones s'appuie sur la base de donnée constamment enrichie pour
 
 ==== InterfaceBloc 4-5
 
- Interface de 5 vers 4:
+Interface de 5 vers 4:
 
 -Transmission des informations sur la plante reconnue, et sur les maladies possibles avec leur pourcentage de sureté. 
 
