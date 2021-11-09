@@ -9,12 +9,12 @@
 [cols=",^,^,,",options="header",]
 |====
 |Tâche |Qui |Quand |Fait |Remarques
-|sujet | | | |
-|sujet en anglais | | | |
-|scenario | | | |
-|architecture (schéma et documentation) | | | |
-|découpage en modules | | | |
-|planning temporel (ce document, personnalisé) | | | |
+|sujet | Romain| 09/11| Oui|
+|sujet en anglais | Martin| 09/11| Oui|
+|scenario | Amine| 08/11| Oui|
+|architecture (schéma et documentation) | Pauline| 08/11| Oui|
+|découpage en modules | Alex| 09/11| Oui|
+|planning temporel (ce document, personnalisé) | Jonathan| 09/11| Oui|
 |====
 
 * présentation 15mn
@@ -22,9 +22,9 @@
 [cols=",^,^,,",options="header",]
 |====
 |Tâche |Qui |Quand |Fait |Remarques
-|préparation du document | | | |
-|répartition de la parole | | | |
-|répétition | | | |
+|préparation du document | Tout le monde| 14/11| Non|
+|répartition de la parole | Tout le monde| 15/11| Non|
+|répétition | Tout le monde| 15/11| Non|
 |====
 
 ==== Taches / PAN2 25/01/22
