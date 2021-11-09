@@ -26,7 +26,7 @@
 |répartition de la parole | Tout le monde| 15/11| Non|
 |répétition | Tout le monde| 15/11| Non|
 |====
-
+////
 ==== Taches / PAN2 25/01/22
 
 ===== Générales
@@ -109,3 +109,4 @@
 |====
 
 * …
+////
