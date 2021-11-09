@@ -14,7 +14,7 @@ soit malade et ne sait pas quoi faire. Il utilise alors l’application sur son 
 feuille de papier blanche derrière l’une des feuilles du plant malade. Il prend en
 photo la feuille de tomate et l’application lui indique : « le plant est infecté par le
 virus de la mosaïque de la tomate! ».
-image::../images/image_d_utilisation.jpg[Image d'utilisation, 600,500]
+image::../images/image_d_utilisation.jpg[Image d'utilisation pratique, 600,500]
 
 Bertrand se sent perdu face à cette maladie encore inconnue. Mais
 l’application lui propose des solutions: un tutoriel écrit pour soigner soi-même la
