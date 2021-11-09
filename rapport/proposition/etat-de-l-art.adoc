@@ -8,6 +8,7 @@ ressemblant à votre projet et les différences éventuelles. Illustrez
 avec des images si besoin. Utilisez des renvois vers votre
 bibliographie : « comme démontré dans [2], … »
 ////
+
 ==== Agrio
 
 L'application, en prenant en photo une plante, indique les maladies les plus probables par lesquelles elle pourrait être touchée.
