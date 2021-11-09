@@ -1,9 +1,12 @@
 === Schéma d’architecture
-
+////
 Insérer ici un ou plusieurs schémas d’architecture du projet. Voir le
 cours d’introduction au Génie Logiciel. N’hésitez pas à faire des
 schémas hiérarchiques, c'est-à-dire avec un bloc d’un schéma général
 raffiné dans un second schéma ; ou des schémas en plusieurs parties.
+////
+image::decoupage_architectural.jpg[Découpage architectural, 700, 500]
+
 
 ==== Description des blocs
 
