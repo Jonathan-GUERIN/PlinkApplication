@@ -33,7 +33,7 @@ ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 
 == Résumé du sujet choisi en français (PAN1)
 
-*_Note: 15 lignes max_*
+//*_Note: 15 lignes max_*
 
 Notre projet consiste à détecter les maladies des plantes en les prenant en photo. Lorsque l'utilisateur, qu'il soit un agriculteur, un jardinier, ou un particulier, remarque une plante qui lui paraît malade, il prend en photo une de ses feuilles (certaines conditions de prise de photo seront à respecter pour garantir la meilleure précision possible). L’application lui indique dans un second temps si la plante est malade et le cas échéant de quelle maladie il s’agit.
 
@@ -45,7 +45,7 @@ Notre projet participe à réponse à la question : "Comment explorer, découvri
 
 == English Summary (PAN1)
 
-*_Note : 15 lignes max, version anglaise du texte précédent_*
+//*_Note : 15 lignes max, version anglaise du texte précédent_*
 
 Our project consists in detecting plant diseases by taking pictures of them. When the user, whether he is a farmer, a gardener or a private individual, notices a plant that looks sick, he takes a picture of one of its leaves (certain conditions for taking pictures will be required to ensure the best accuracy possible). Secondly, the app indicates if the plant is sick and if so, which disease it is.
 
