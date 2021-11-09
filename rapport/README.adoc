@@ -1,4 +1,4 @@
-= Rapport d’avancement du groupe “x.y”
+= Rapport d’avancement du groupe “6.3”
 PACT groupe xy (Les plus beaux)
 ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
 :doctype: book
