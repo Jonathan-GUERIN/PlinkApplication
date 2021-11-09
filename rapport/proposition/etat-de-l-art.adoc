@@ -8,6 +8,19 @@ ressemblant à votre projet et les différences éventuelles. Illustrez
 avec des images si besoin. Utilisez des renvois vers votre
 bibliographie : « comme démontré dans [2], … »
 
+==== Agrio
+
+L'application, en prenant en photo une plante, indique les maladies les plus probables par lesquelles elle pourrait être touchée.
+
+Cependant, l'application part du principe que la plante prise en photo est malade. Nous souhaitons être capable d'identifier aussi si les plantes prises en photo sont saines.
+
+==== Plantix
+
+En prenant une photo d'une plante malade, l'application identifie la maladie, donne des informations à propos de cette dernière et des moyens de la traiter. C'est, dans le fond, similaire à ce que nous voulons proposer.
+
+Plantix ne propose pas le contact d'experts en cas d'insuffisance des soins. C'est un service que nous souhaitons proposer car les agriculteurs y ont recours fréquemment lorsqu'ils remarquent des plantes en mauvaise santé (cf. bibliographie, ajouter les interviews d'Alex).
+
+////
 ==== XXX
 
 Et magnis dis parturient montes, nascetur ridiculus mus.
@@ -39,3 +52,4 @@ théorie de la communication <<RefShannon>>
 ou, bien évidement, la vitrine des projets PACT <<VitrinePACT>>.
 
 Voir <<TOTO,la référence>> très intéressante elle aussi.
+////

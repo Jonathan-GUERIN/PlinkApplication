@@ -6,22 +6,19 @@ encadrées par les experts SES. Vous pouvez mettre un scénario amélioré
 comprendre au jury PACT les différentes étapes d’utilisation de votre
 produit/service ou si vous avez changé d’idées entre-temps.
 
-==== XX
+==== 
 
-Nulla. Curabitur aliquet leo ac massa. Praesent posuere lectus vitae
-odio. Donec imperdiet urna vel ante. In semper accumsan diam. Vestibulum
-porta justo. Suspendisse egestas commodo eros.
+Bertrand, au cours de son inspection journalière, repère dans son champ un
+plant de tomate lui paraissant légèrement anormal. Il n’est pas sûr que la plante
+soit malade et ne sait pas quoi faire. Il utilise alors l’application sur son smartphone. Il place une
+feuille de papier blanche derrière l’une des feuilles du plant malade. Il prend en
+photo la feuille de tomate et l’application lui indique : « le plant est infecté par le
+virus de la mosaïque de la tomate! ».
 
-Suspendisse tincidunt mi vel metus. Vivamus non urna in nisi gravida
-congue. Aenean semper orci a eros. Praesent dictum. Maecenas pharetra
-odio ut dui. Pellentesque.
+Bertrand se sent perdu face à cette maladie encore inconnue. Mais
+l’application lui propose des solutions: un tutoriel écrit pour soigner soi-même la
+plante, un historique des maladies qu'il a pu rencontrer, des produits pour soigner la plante et enfin une option pour appeler des
+techniciens spécialisés et situés à proximité de chez lui.
 
-==== YY
-
-Ac mauris.
-
-Duis velit magna, scelerisque vitae, varius ut, aliquam vel, justo.
-Proin ac augue. Nullam auctor lectus vitae arcu. Vestibulum porta justo
-placerat purus. Ut sem nunc, vestibulum nec, sodales vitae, vehicula
-eget, ipsum. Sed nec tortor. Aenean malesuada. Nunc convallis, massa eu
-vestibulum commodo, quam mauris interdum arcu, at pellentesque.
+==== 
+Grâce à l'application, Bertrand a pu éviter de perdre une partie de son exploitation agricole à cause du « virus de la mosaïque ». Il n'a alors pas du utiliser des pesticides, nuisibles à l'environnement et a alors limité ses pertes agricoles.
