@@ -1,4 +1,4 @@
-
+////
 *_Note : Liste des références exploitées. Une référence complète
 donne titre, auteur(s), date, journal, revue, source de publication,
 titre de conférence, numéro, pages. Une webographie est aussi
@@ -12,3 +12,4 @@ http://sites.google.com/site/parthochoudhury/aMToC_CShannon.pdf
 https://pact.wp.mines-telecom.fr/vitrine/
 * [[TOTO]]XXX : *M. S. Otor*, _Best paper ever_, Livre de la jungle,
 Volume 2, pages 33-34, 1777
+////
