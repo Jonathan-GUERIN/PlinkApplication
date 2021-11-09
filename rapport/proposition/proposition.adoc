@@ -1,23 +1,18 @@
 === Description de la proposition
 *_Note: 2 page max._*
 
-_Décrire de façon détaillée votre projet : motivations de base/problèmes
-constatés avant élaboration du projet, comment votre projet répond à ces
+_Décrire de façon détaillée votre projet : *_motivations de base/problèmes
+constatés avant élaboration du projet_*, comment votre projet répond à ces
 besoins. Ajouter une image ou une figure pour montrer à quoi cela
 ressemble si besoin._
 
-Amet, tellus. Maecenas a dolor. Praesent tempor, felis eget gravida
-blandit, urna lacus faucibus velit, in consectetuer sapien erat nec
-quam. Integer bibendum odio sit amet neque. Integer imperdiet rhoncus
-mi. Pellentesque malesuada purus id purus. Quisque viverra porta lectus.
-Sed lacus leo, feugiat at, consectetuer eu, luctus quis, risus.
-Suspendisse faucibus orci et nunc. Nullam vehicula fermentum risus.
-Fusce felis nibh, dignissim vulputate, ultrices quis, lobortis et, arcu.
-Duis aliquam libero non diam.
+Les contraintes environnementales actuelles nous obligent à limiter les pertes et le gâchis à tous les niveaux. Il semble aussi important d'utiliser les pesticides au minimum, afin de ne pas polluer les sols. En effet, des plantes malades peuvent résulter en des cultures gachées si la maladie n'est pas traitée rapidement et se répend, et un soin tardif peut résulter en la surutilisation de produits par l'agriculteur pour compenser les pertes suite aux maladies. S’impose alors le besoin de détecter les maladies des plantes au plus vite et de les identifier afin de pouvoir agir en conséquence. Détecter les maladies des cultures rapidement permet d'éviter un gachis du à des cultures trop endommagées et une surpollution des cultures.
 
-Vestibulum placerat tincidunt tortor. Ut vehicula ligula quis lectus. In
-eget velit. Quisque vel risus. Mauris pede. Nullam ornare sapien sit
-amet nisl. Cras tortor. Donec tortor lorem.
+image::../images/plantix_app_in_use.jpg[Utilisation de Plantix]
+
+Il nous semble pertinent de développer une application permettant de détecter et d'identifier les maladies de plantes. Face à une plante qui paraît malade, l’utilisateur, qu’il soit un agriculteur, un jardinier ou un particulier, place un papier sous une des feuilles et prend en photo la feuille. L’application lui indique si la plante est malade et le cas échéant de quelle maladie il s’agit.
+
+
 
 
 
