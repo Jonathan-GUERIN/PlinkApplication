@@ -10,7 +10,7 @@ Il nous semble pertinent de développer une application permettant de détecter 
 
 
 
-
+////
 === Exemples d'utilisation d'AsciiDoc
 
 _Ici quelques exemples de syntaxe AsciiDoc pour ajouter des équations, des images, des listes..._
@@ -110,3 +110,4 @@ class foo {
 Étape 2::: Faire X, Y, Z…
 Étape 3::: Faire W, et c'est fini…
 
+////
