@@ -1,23 +1,9 @@
 === Schéma d’architecture
-////
-Insérer ici un ou plusieurs schémas d’architecture du projet. Voir le
-cours d’introduction au Génie Logiciel. N’hésitez pas à faire des
-schémas hiérarchiques, c'est-à-dire avec un bloc d’un schéma général
-raffiné dans un second schéma ; ou des schémas en plusieurs parties.
-////
+
 image::decoupage_architectural.jpg[Découpage architectural, 800, 500]
 
 
 ==== Description des blocs
-
-Il faut ici une description textuelle de chaque bloc, sa fonction
-détaillée. En général, un bloc correspond à un module, sauf exception.
-Il peut être adapté de faire des blocs plus petits qu’un module.
-
-Il est important ici de distinguer les bibliothèques identifiées et
-disponibles de ce que vous allez produire (coder) vous-même. Vous ne
-devez pas réinventer la roue, mais vous ne devez pas non plus avoir votre
-projet tout fait en encapsulant un programme déjà existant.
 
 ===== Bloc 1: Application Android
 
