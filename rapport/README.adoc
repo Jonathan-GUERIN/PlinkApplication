@@ -130,7 +130,7 @@ include::References.adoc[Bibliographie]
 
 <<<
 
-== Annexes
+//== Annexes
 
 include::annexes/modifications.adoc[Modifications (PAN2+)]
 
