@@ -14,7 +14,7 @@ précision.
 Si c’est une interface entre deux blocs électroniques, c’est une description
 des signaux électroniques ou protocoles utilisés.
 ////
-image::decoupage_architectural.jpg[Découpage architectural, 800, 500]
+image::../images/decoupage_architectural.jpg[Découpage Architectural, 700, 500]
 
 ==== InterfaceBloc 1 - 4
 
@@ -22,12 +22,14 @@ Interface de 1 vers 4:
 
 -Transmission de la photo du smartphone à la base de donnée pour son traitement et son ajout dans l'historique de l'utilisateur
 -Transmission des données de l'utilisateur (identifiants, mot de passe)
+-Requêtes de l'utilisateur pour accéder à ses bases de données
 
 Interface de 4 vers 1:
 
 -Transmission des informations sur: le type de plante qui a été détectée, les maladies possibles, les soins possibles à apporter (articles de journaux, produits à appliquer, contacts de spécialiste)
 -Transmission des informations à afficher dans les notifications de l'application. 
 -Transmission de l'état de connexion du compte utilisateur (identifiant et mot de passe valide donc le compte s'ouvre)
+-Les données fournies par le serveur sont issues de la base de données et les droits de l'utilisateur restreint pour sécuriser les requêtes
 
 
 
@@ -47,14 +49,41 @@ Interface de 4 vers 3:
 
 Interface de 3 vers 4:
 
--Transmission des données d'un utilisateurs: historique, identifiants et mot de passe (qui restent invisibles pour l'utilisateur (au cas où ce n'est pas le détenteur du compte) mais qui permettent de comparer avec ce que l'utilisateur aura rentrer pour s'authentifier).
--Transmission des notifications (rappels etc)
+-Transmission des données d'un utilisateur: historique, identifiants et mot de passe (qui restent invisibles pour l'utilisateur (au cas où ce n'est pas le détenteur du compte) mais qui permettent de comparer avec ce que l'utilisateur aura rentrer pour s'authentifier).
+-Transmission des calendrier de notifications (rappels etc)
+
+==== InterfaceBloc avec le bloc 4:
+Interface de 1 vers 4
+- gérer le flux image entrant (les photos envoyés par les utilisateurs depuis l'application Android) au serveur PC
+
+Interface de 4 vers 2
+- renvoyer ces images au module 2 "Traitement des images" afin de s'assurer que les images soient sous le bon format, une résolution pas trop élevée...
+
+Interface 2 vers 4
+- Le module reçoit ensuite les images traitées fournies par le bloc 2.
+
+Interface 4 vers 3
+- Il permet ensuite d'envoyer les photos traitées dans la base de bonnées (bloc 3) pour stocker les photos.
+
+Interface 4 vers 5
+- Il envoie en parallèle les photos traitées aux bloc 5 (réseau de neurone) afin d'effectuer la reconnaissance de la maladie.
+
+Interface 5 vers 4
+- Le serveur reçoit ensuite le dignostic fournit par le réseau de neurone pour le renvoyer à l'application Android (bloc 1) sous la forme d'un traitement à appliquer
+
+Interface 4 vers 3
+- stocker ces dignostics dans la base de données (bloc 3).
+- C'est aussi le serveur qui enverra les notifications utilisateurs au bloc 1, calculées à partir de la base de données (bloc 3).
+
+Interface 4 vers 1
+- Le serveur peut aussi renvoyer au bloc 1 des données utilisateurs selon les requêtes faites sur l'application.
+- C'est aussi le serveur qui sécurisera l'accès à la base de données et à l'application via une surveillance des connexions utilisateurs.
 
 ==== InterfaceBloc 2 - 5
 
 Interface de 2 vers 5:
 
--Envoie de la photo traitée à la partie IA pour une reconnaissance de la plante et des maladies possibles
+-Envoi de la photo traitée à la partie IA pour une reconnaissance de la plante et des maladies possibles
 
 ==== InterfaceBloc 3 - 5
 
@@ -68,6 +97,6 @@ Interface de 5 vers 4:
 
 ==== InterfaceBloc 6 - 1 à 5
 
--Les codes développés dans les blocs 1 à 5 devront s'intégrés les uns les autres. 
+-Les codes développés dans les blocs 1 à 5 devront s'intégrer les uns les autres. 
 
 
