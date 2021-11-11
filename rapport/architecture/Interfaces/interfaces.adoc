@@ -33,11 +33,7 @@ Interface de 4 vers 1:
 
 
 
-==== InterfaceBloc 2 - 4
 
-Interface de 4 vers 2:
-
--Transmission de la photo réceptionnée à la partie qui gère le détourage des plantes et le formatage des images pour qu'elles soient conformes au type de photos de la base de donnée. 
 
 ==== InterfaceBloc 4 - 3
 
@@ -61,6 +57,7 @@ Interface de 4 vers 2
 
 Interface 2 vers 4
 - Le module reçoit ensuite les images traitées fournies par le bloc 2.
+-Transmission de la photo réceptionnée à la partie qui gère le détourage des plantes et le formatage des images pour qu'elles soient conformes au type de photos de la base de donnée. 
 
 Interface 4 vers 3
 - Il permet ensuite d'envoyer les photos traitées dans la base de bonnées (bloc 3) pour stocker les photos.
@@ -70,6 +67,7 @@ Interface 4 vers 5
 
 Interface 5 vers 4
 - Le serveur reçoit ensuite le dignostic fournit par le réseau de neurone pour le renvoyer à l'application Android (bloc 1) sous la forme d'un traitement à appliquer
+-Transmission des informations sur la plante reconnue, et sur les maladies possibles avec leur pourcentage de sureté. 
 
 Interface 4 vers 3
 - stocker ces dignostics dans la base de données (bloc 3).
@@ -89,11 +87,7 @@ Interface de 2 vers 5:
 
 Le réseau de neurones s'appuie sur la base de donnée constamment enrichie pour reconnaître plante et maladies.
 
-==== InterfaceBloc 4 - 5
 
-Interface de 5 vers 4:
-
--Transmission des informations sur la plante reconnue, et sur les maladies possibles avec leur pourcentage de sureté. 
 
 ==== InterfaceBloc 6 - 1 à 5
 
