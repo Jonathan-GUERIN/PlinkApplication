@@ -2,7 +2,7 @@
 
 
 ==== Page 1
-include::architecture/IHM/page1.png
+image::...architecture/IHM/page1.png
 
 Cette page est la page d'accueil de l'application quand on la lance. Elle permet de choisir la version de l'application que l'on veut utiliser, la version Classique (pour les amateurs de botanique) ou la version Pro qui est payante est plus adaptée aux agriculteurs.
 Un troisième bouton permet de se connecter directement.
