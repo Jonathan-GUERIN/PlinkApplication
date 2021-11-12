@@ -1,6 +1,6 @@
 === Interface utilisateur graphique
 
-
+image::../architecture/IHM/Présentation sans titre.png[Strucutre générale, 300,500]
 ==== Page 1
 
 image::../architecture/IHM/page1.png[Page 1, 300,500]
