@@ -13,7 +13,7 @@ Si on appuie sur le bouton "Version Classique" on est redirigé vers la page 2b.
 Si on appuie sur le bouton "Se connecter" on est redirigé vers la page 5.
 
 ==== Page 2a
-Image
+image::../architecture/IHM/pae2a.png[Page 2a, 300,500]
 
 Cette page oblige l'utilisateur a posséder un compte car il doit payer un abonnement (c'est plus facile de gérer l'abonnement avec un compte). IL peut donc sur cette page, créer un compte s'il n'en a pas déjà un, ou alors il peut se connecter avec son compte déjà existant.
 
@@ -21,8 +21,7 @@ Si on appuie sur le bouton "Se connecter" on est redirigé vers la page 5.
 Si on appuie sur le bouton "Créer un compte" on est redirigé vers la page 3b.
 
 ==== Page 2b
-
-Image
+image::../architecture/IHM/page2b.png[Page 2b, 300,500]
 Cette page autorise l'utilisateur à se connecter avec ou sans compte. 
 
 Si on appuie sur le bouton "Se connecter" on est redirigé vers la page 5.
@@ -30,7 +29,7 @@ Si on appuie sur le bouton "Créer un compte" on est redirigé vers la page 3a.
 Si on appuie sur le bouton "Continuer sans compte" on est redirigé vers la page 7.
 
 ==== Page 3a
-
+image::../architecture/IHM/page3a.png[Page 3a, 300,500]
 Cette page permet de créer un compte classique en rentrant Nom, Prénom, Adresse-mail, Identifiant, Mot de passe.
 
 Si on appuie sur le bouton "Créer" on est redirigé vers la page 6.
@@ -43,31 +42,30 @@ Cette page permet de créer un compte pro en rentrant Nom, Prénom, Adresse-mail
 Une fois le paiement terminé, l'utilisateur est automatiquement redirigé vers l'application sur la page 4.
 
 ==== Page 4
-
+image::../architecture/IHM/page4.png[Page 4, 300,500]
 Cette page vient finaliser la création du compte pro. 
 
 
 Si on appuie sur le bouton "Créer" on est redirigé vers la page 6.
 
 ==== Page 5
-
+image::../architecture/IHM/page5.png[Page 5, 300,500]
 Cette page permet de se connecter à son compte (peu importe le type de compte), en entrant identifiant et mot de passe. 
 
 Si on appuie sur le bouton "Se connecter" on est redirigé vers la page 6.
 
-==== Page 6
-
+==== Page 6image::../architecture/IHM/page6.png[Page 6, 300,500]
 Cette page correspond au tableau de bord d'un utilisateur ayant un compte. Il peut soit faire une détection de maladie, soit changer de mot de passe, consulter son historique, ses rappels (notifications) et consulter l'état de son abonnement.
 
 Si on appuie sur le bouton "Détecter une maladie" on est redirigé vers la page 7. 
 
 ==== Page 7
-
+image::../architecture/IHM/page7.png[Page 7, 300,500]
 Cette page permet de prendre une photo d'une feuille que l'on soupçonne malade. En appuyant sur le bouton "prendre une photo", l'appareil photo du téléphone se met en marche et une fois la photo prise, elle est importée dans l'application. 
 Une fois la photo importée, l'utilisateur est redirigé sur la page 8.
 
 ==== Page 8
-
+image::../architecture/IHM/page8.png[Page 8, 300,500]
 Cette page permet de visualiser la photo prise et de confirmer qu'on veut lancer la détection.
 
 Si on appuie sur le bouton "Start" on est redirigé vers la page 9a ou 9b en fonction de si l'utilisateur est connecté.
@@ -75,7 +73,7 @@ S'il est connecté, il va sur la page 9a, sinon sur la 9b.
 
 
 ==== Page 9a
-
+image::../architecture/IHM/page9a.png[Page 9a, 300,500]
 
 
 
