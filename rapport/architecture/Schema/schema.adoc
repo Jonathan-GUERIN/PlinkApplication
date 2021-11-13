@@ -33,3 +33,13 @@ Il faut faire attention à distinguer les différents blocs de la partie "PC" su
 - C'est aussi le serveur qui enverra les notifications utilisateurs au bloc 1, calculées à partir de la base de données (bloc 3).
 - Le serveur peut aussi renvoyer au bloc 1 des données utilisateurs selon les requêtes faites sur l'application.
 - C'est aussi le serveur qui sécurisera l'accès à la base de données et à l'application via une surveillance des connexions utilisateurs.
+
+===== Bloc viabilité économique de l’app
+A propos de la viabilité économique de l’application et de notre business plan, plusieurs options sont à considérer à ce stade.
+Une première option serait de mettre en place un système d’abonnement (à l’image de Plantix par exemple). L’avantage de cette méthode, si l’on propose des abonnements peu chers sur de longues durées, est la stabilité des revenus puisque les clients auront tendance à garder leur abonnement. La difficulté, que le client choisisse de payer un abonnement, est qu’il faut qu’il ait au préalable fait un essaie gratuit de l’application. Deux possibilités s’offrent alors à nous : soit nous proposons quelques jours d’essais gratuits (c’est ce que fait Plantix), soit nous proposons une version premium et une version gratuite (avec par exemple un nombre limité d’identification de maladie de plante par mois dans la version gratuite).
+
+Une deuxième option, moins agressive à première vue, est de laisser l’application totalement gratuite à l’utilisation et de faire acheter des produits à nos utilisateur. On peut alors procéder comme suit : l’utilisateur demande à l’application de reconnaitre la maladie de sa plante et, après identification de la maladie, on envoie le client sur un funnel de vente (suite de pages ayant pour but de vendre un maximum de produits) sur lequel nous proposons des produits que le client peut acheter pour guérir ses plantes. Le principe est que nous touchions un pourcentage sur chacun des produits achetés (affiliation). L’intérêt du funnel de vente est que nous pouvons par la suite proposer d’autre produits (des ebooks sur le jardinage et la nature par exemple), car si nous présentons de la bonne manière, le client sera plus enclin à acheter.
+
+Nous pourrions aussi cumuler les deux options développées ci-dessus mais il serait alors bien vu de faire un funnel de vente pas trop agressif.
+
+Tout cela sera évidemment à adapter en fonction de l’efficacité de notre application et donc du type d’utilisateur que nous pourrons toucher.
