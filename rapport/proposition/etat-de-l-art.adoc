@@ -11,15 +11,15 @@ bibliographie : « comme démontré dans [2], … »
 
 ==== Agrio
 
-L'application, en prenant en photo une plante, indique les maladies les plus probables par lesquelles elle pourrait être touchée.
+L'application, en prenant en photo une plante, indique les maladies les plus probables par lesquelles elle pourrait être touchée en précisant la confiance de l'application en la répose apportée. Elle propose également de la partager avec la communauté membre pour avoir des retours et des conseils. Des traitements sont également proposés. L'application propose également de mettre en contact l'utilisateur avec des experts, mais ce service est payant.
 
 Cependant, l'application part du principe que la plante prise en photo est malade. Nous souhaitons être capable d'identifier aussi si les plantes prises en photo sont saines.
 
 ==== Plantix
 
-En prenant une photo d'une plante malade, l'application identifie la maladie, donne des informations à propos de cette dernière et des moyens de la traiter. C'est, dans le fond, similaire à ce que nous voulons proposer.
+En prenant une photo d'une plante malade, l'application identifie la maladie, donne des informations à propos de cette dernière et des moyens de la traiter.
 
-Plantix ne propose pas le contact d'experts en cas d'insuffisance des soins. C'est un service que nous souhaitons proposer car les agriculteurs y ont recours fréquemment lorsqu'ils remarquent des plantes en mauvaise santé (cf. bibliographie, ajouter les interviews d'Alex).
+Plantix ne propose pas le contact d'experts en cas d'insuffisance des soins. C'est un service que nous souhaitons proposer car les agriculteurs y ont recours fréquemment lorsqu'ils remarquent des plantes en mauvaise santé.
 
 ////
 ==== XXX
