@@ -38,6 +38,13 @@ Il faut faire attention à distinguer les différents blocs de la partie "PC" su
 - Le serveur peut aussi renvoyer au bloc 1 des données utilisateurs selon les requêtes faites sur l'application.
 - C'est aussi le serveur qui sécurisera l'accès à la base de données et à l'application via une surveillance des connexions utilisateurs.
 
+===== Bloc 5: IA
+
+Le bloc IA est au coeur de notre projet. C'est la partie en charge de détecter et identifier les maladies à partir de la photo prise par l'utilisateur.
+
+Nous utilisons pour cela un réseau de neurones convolutionnel (CNN), entraîné sur une base de données en libre accès répertoriant des plantes malades et non malades avec différentes pathologies.
+Le CNN, si on lui présente une image (traitée au préalable à l'aide du bloc 2 : Traitement d'Images), est en mesure de déterminer si la plante présente sur l'image est malade ou non et si oui, d'identifier la maladie. La réponse renvoyée par le CNN est "healthy" si la plante n'est pas malade, et si la plante est malade, le nom de la maladie en question. Cette réponse est communiquée à l'utilisateur à l'aide du bloc 1 : Application Android.
+
 ===== Bloc viabilité économique de l’app
 A propos de la viabilité économique de l’application et de notre business plan, plusieurs options sont à considérer à ce stade.
 Une première option serait de mettre en place un système d’abonnement (à l’image de Plantix par exemple). L’avantage de cette méthode, si l’on propose des abonnements peu chers sur de longues durées, est la stabilité des revenus puisque les clients auront tendance à garder leur abonnement. La difficulté, que le client choisisse de payer un abonnement, est qu’il faut qu’il ait au préalable fait un essaie gratuit de l’application. Deux possibilités s’offrent alors à nous : soit nous proposons quelques jours d’essais gratuits (c’est ce que fait Plantix), soit nous proposons une version premium et une version gratuite (avec par exemple un nombre limité d’identification de maladie de plante par mois dans la version gratuite).
