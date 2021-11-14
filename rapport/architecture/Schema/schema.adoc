@@ -21,6 +21,10 @@ Il permet:
 - le détourage des plantes (retirer le fond saturé derrière la feuille à analyser),
 - le traitement des problèmes de la luminosité pour rajouter ou enlever du relief à la feuille et retirer les ombres parasites.
 
+===== Bloc 3: Base de données
+
+Ce bloc correspond à la base de données dont l'utilité principale sera de stocker les photos prises ainsi que les données utilisateurs (via bloc 4). Dans cette base de données, on stockera également les diagnostics pouvant être envoyées à l'aide du bloc 4 à l'utilisateur. 
+
 ===== Bloc 4: Partie Serveur/ Module CCS
 
 Ce bloc correspond à la partie serveur qui tournera sur un PC en distant.
