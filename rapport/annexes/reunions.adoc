@@ -35,4 +35,5 @@ dolor sit amet lacus varius fermentum. Morbi dolor enim, pulvinar eget.
 ** Stéphane Latuilière, expert IA 
 * Sujets abordés
 ** *Présentation du projet* : Etude de la faisabilité de la partie IA du projet. Un seul réseau devrait suffire pour reconnaître la plante puis reconnaître la maladie. Le problème de détourage des feuilles peut être résolu avec des fonctions de détourage déjà présentes (pas besoin d'un expert dans le traitement d'image) ou par un réseau de neurones. L'inquiétude de l'expert porte sur la possibilité d'exploiter le réseau de neurone en condition réelle: une photo prise avec un smartphone sous éclairage naturel n'a rien à voir avec une photo prise par une caméra de laboratoire sous un éclairage artificiel et le réseau ne saura pas faire la transition entre ces deux catégories de photos.
-Il nous est donc demandé de chercher une base de données en fonction de ce que l'on cherche à faire. 
+* Actions à entreprendre :
+Chercher une base de données en fonction de ce que l'on cherche à faire. 
