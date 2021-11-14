@@ -1,4 +1,3 @@
-
 === Comptes Rendus de réunions
 
 ////
@@ -30,3 +29,10 @@ dolor sit amet lacus varius fermentum. Morbi dolor enim, pulvinar eget.
 * Sujets abordés
 ** *Présentation du projet* : Etude de la faisabilité. D'après l'expert, il était nécessaire d'ajouter certains éléments à notre projet pour qu'il soit complet : suggérer des solutions de soins aux utilisateurs qui ont une plante malade ou encore proposer deux versions de l'appli en fonction du type d'utilisateur (un agriculteur ou un amateur).
 
+==== Réunion du 28/10/2021
+* Présents : 
+** Jonathan Guérin
+** Stéphane Latuilière, expert IA 
+* Sujets abordés
+** *Présentation du projet* : Etude de la faisabilité de la partie IA du projet. Un seul réseau devrait suffire pour reconnaître la plante puis reconnaître la maladie. Le problème de détourage des feuilles peut être résolu avec des fonctions de détourage déjà présentes (pas besoin d'un expert dans le traitement d'image) ou par un réseau de neurones. L'inquiétude de l'expert porte sur la possibilité d'exploiter le réseau de neurone en condition réelle: une photo prise avec un smartphone sous éclairage naturel n'a rien à voir avec une photo prise par une caméra de laboratoire sous un éclairage artificiel et le réseau ne saura pas faire la transition entre ces deux catégories de photos.
+Il nous est donc demandé de chercher une base de données en fonction de ce que l'on cherche à faire. 
