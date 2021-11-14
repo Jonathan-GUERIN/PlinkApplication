@@ -1,11 +1,11 @@
-////
+
 === Comptes Rendus de réunions
 
-
+////
 Insérez ici vos comptes rendus de réunions : date, durée, participants,
 sujets abordés.
-
-
+////
+////
 ==== Réunion du dd/mm/yyyy
 
 * Présents:
@@ -22,3 +22,11 @@ adipiscing elit.
 ** Interdum arcu, at pellentesque diam metus ut nulla. Vestibulum eu
 dolor sit amet lacus varius fermentum. Morbi dolor enim, pulvinar eget.
 ////
+
+==== Réunion du 11/10/2021
+* Présents :
+** Pauline Escavi
+**  Thomas Robert, expert Android
+* Sujets abordés
+** *Présentation du projet* : Etude de la faisabilité. D'après l'expert, il était nécessaire d'ajouter certains éléments à notre projet pour qu'il soit complet : suggérer des solutions de soins aux utilisateurs qui ont une plante malade ou encore proposer deux versions de l'appli en fonction du type d'utilisateur (un agriculteur ou un amateur).
+
