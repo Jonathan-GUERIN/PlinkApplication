@@ -43,7 +43,6 @@ Il faut faire attention à distinguer les différents blocs de la partie "PC" su
 Le bloc IA est au coeur de notre projet. C'est la partie en charge de détecter et identifier les maladies à partir de la photo prise par l'utilisateur.
 
 Nous utilisons pour cela un réseau de neurones convolutionnel (CNN), entraîné sur une base de données en libre accès répertoriant des plantes malades et non malades avec différentes pathologies.
-
 Le CNN, si on lui présente une image (traitée au préalable à l'aide du bloc 2 : Traitement d'Images), est en mesure de déterminer si la plante présente sur l'image est malade ou non et si oui, d'identifier la maladie. La réponse renvoyée par le CNN est "healthy" si la plante n'est pas malade, et si la plante est malade, le nom de la maladie en question. Cette réponse est communiquée à l'utilisateur à l'aide du bloc 1 : Application Android.
 
 ===== Bloc viabilité économique de l’app
