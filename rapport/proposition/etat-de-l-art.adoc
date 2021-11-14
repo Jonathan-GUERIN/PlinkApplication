@@ -21,6 +21,8 @@ En prenant une photo d'une plante malade, l'application identifie la maladie, do
 
 Plantix ne propose pas le contact d'experts en cas d'insuffisance des soins. C'est un service que nous souhaitons proposer car les agriculteurs y ont recours fréquemment lorsqu'ils remarquent des plantes en mauvaise santé.
 
+==== Prospera
+Prospera est une grande entreprise utilisant l'IA dans l'agriculture. Ils équipent les grandes plantations de caméras capables de détecter une maladie se répendant sur les plantes. Ce système fonctionne en continu, nuit et jour pour limiter les pertes agricoles dûes à des maladies.
 ////
 ==== XXX
 
