@@ -1,11 +1,11 @@
 === Scénarios d’usage
-
+////
 Mettre ici le scénario d’usage que vous avez construit lors des séances
 encadrées par les experts SES. Vous pouvez mettre un scénario amélioré
 (et non celui noté) si vous jugez votre scénario insuffisant pour faire
 comprendre au jury PACT les différentes étapes d’utilisation de votre
 produit/service ou si vous avez changé d’idées entre-temps.
-
+////
 ==== 
 
 Bertrand, au cours de son inspection journalière, repère dans son champ un
