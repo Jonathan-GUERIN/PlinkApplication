@@ -1,6 +1,6 @@
 === Interface utilisateur graphique
 
-image::../images/IHM/architecture_générale.png[Structure générale, 300,500]
+image::../images/IHM/architecture_générale.png[Structure générale, 800,500]
 
 ==== Page 1
 
