@@ -24,6 +24,8 @@ De plus, Plantix ne détecte pas le type de plante prise en photo. Il faut la re
 
 ==== Prospera
 Prospera est une grande entreprise utilisant l'IA dans l'agriculture. Ils équipent les grandes plantations de caméras capables de détecter une maladie se répandant sur les plantes. Ce système fonctionne en continu, nuit et jour pour limiter les pertes agricoles dûes à des maladies.
+
+Les caméras sont placées sur les plantations, ce qui entraîne des gros coûts d'installation et limite la transportabilité de cet outil. Notre application serait plus abordable et mobile, grâce à son support (le téléphone) facile à transporter.
 ////
 ==== XXX
 
