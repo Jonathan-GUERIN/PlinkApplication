@@ -26,10 +26,6 @@ test :
 === Plans de test (PAN2+)
 
 Module IA:
-Prérequis: 
-Photo en condition réelle
-Sortie:
-Vecteur de probabilités en brut
 ////
 [cols=",^,^,,",options="header",]
 |====
@@ -40,5 +36,5 @@ Vecteur de probabilités en brut
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-|Classification de l'image | Photo traitée type utilisateur| Vecteur de probabilités d'appartenance aux classes| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format (à fignoler)
+|Classification de l'image | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format (à fignoler)
 |====
