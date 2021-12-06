@@ -33,7 +33,14 @@ Vecteur de probabilités en brut
 
 [cols=",^,^,,",options="header",]
 |====
-|Tâche |Entrées |Sorties |Remarques
-|Reconnaissance de la maladie| Photo prise en condition réelle traitée| Vecteur de probabilité|
-|Reconnaissance de la feuille| Photo prise en condition réelle traitée| Vecteur de probabilité|
+|Fonction |Entrées |Sorties |Remarques
+|reconnaissance de la maladie | Photo prise en condition réelle traitée| Vecteur de probabilité|
+|====
+
+[cols=",^,^,,",options="header",]
+|====
+|Fonction |Entrées |Sorties |Fait |Remarques
+|Reconnaissance de la maladie | Tout le monde| 14/11| Non|
+|répartition de la parole | Tout le monde| 15/11| Non|
+|répétition | Tout le monde| 15/11| Non|
 |====
