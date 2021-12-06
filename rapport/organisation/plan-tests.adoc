@@ -38,3 +38,17 @@ Module IA:
 |Fonction |Entrées |Sorties |Fait |Remarques
 |Classification de l'image | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format (à fignoler)
 |====
+
+Module Application Android:
+////
+[cols=",^,^,,",options="header",]
+|====
+|Fonction |Entrées |Sorties |Remarques
+|connexion | mot de passe et nom d'utilisateur| "vous n'avez pas de compte" ou page principale de l'application|passe par la base de donnée
+|====
+////
+[cols=",^,^,,",options="header",]
+|====
+|Fonction |Entrées |Sorties |Fait |Remarques
+|reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
+|====
