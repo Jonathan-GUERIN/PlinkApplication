@@ -23,3 +23,17 @@ test :
 * action ou entrée à appliquer
 * réaction ou sortie attendue.
 ////
+=== Plans de test (PAN2+)
+
+Module IA:
+Prérequis: 
+Photo en condition réelle
+Sortie:
+Vecteur de probabilités en brut
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Entrées |Sorties |Remarques
+|Reconnaissance de la maladie| Photo prise en condition réelle traitée| Vecteur de probabilité|
+|Reconnaissance de la feuille| Photo prise en condition réelle traitée| Vecteur de probabilité|
+|====
