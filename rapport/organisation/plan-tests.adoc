@@ -30,15 +30,15 @@ Prérequis:
 Photo en condition réelle
 Sortie:
 Vecteur de probabilités en brut
-
+////
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Remarques
 |reconnaissance de la maladie | Photo prise en condition réelle traitée| Vecteur de probabilité|
 |====
-
+////
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-|Reconnaissance de la maladie | Photo traitée| Vecteur de probabilité| Non|
+|Classification de l'image | Photo traitée type utilisateur| Vecteur de probabilité| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format, 
 |====
