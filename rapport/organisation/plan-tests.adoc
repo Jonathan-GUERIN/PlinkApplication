@@ -40,7 +40,5 @@ Vecteur de probabilités en brut
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-|Reconnaissance de la maladie | Tout le monde| 14/11| Non|
-|répartition de la parole | Tout le monde| 15/11| Non|
-|répétition | Tout le monde| 15/11| Non|
+|Reconnaissance de la maladie | Photo traitée| Vecteur de probabilité| Non|
 |====
