@@ -52,3 +52,9 @@ Module Application Android:
 |Fonction |Entrées |Sorties |Fait |Remarques
 |reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
 |====
+////
+[cols=",^,^,,",options="header",]
+|====
+|Fonction |Entrées |Sorties |Fait |Remarques
+|afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
+|====
