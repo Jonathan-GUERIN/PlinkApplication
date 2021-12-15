@@ -58,3 +58,9 @@ Module Application Android:
 |Fonction |Entrées |Sorties |Fait |Remarques
 |afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
 |====
+////
+[cols=",^,^,,",options="header",]
+|====
+|Fonction |Entrées |Sorties |Fait |Remarques
+|afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
+|====
