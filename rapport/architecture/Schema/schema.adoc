@@ -1,6 +1,6 @@
 === Schéma d’architecture
 
-image::../images/decoupage_architectural.jpg[Découpage Architectural, 800, 500]
+image::../../images/decoupage_architectural.jpg[Découpage Architectural, 800, 500]
 
 
 ==== Description des blocs

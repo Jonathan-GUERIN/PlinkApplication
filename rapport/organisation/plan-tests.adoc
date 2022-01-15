@@ -26,43 +26,5 @@ test :
 === Plans de test (PAN2+)
 
 Cette section décrit les plans de test, mais les tests précis sont explicités dans les fichiers:
-"tests_unitaires.adoc",'tests_intefration.adoc',"tests_scenario.adoc"
-Module IA:
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Remarques
-|reconnaissance de la maladie | Photo prise en condition réelle traitée| Vecteur de probabilité|
-|====
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Fait |Remarques
-|Classification de l'image | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format (à fignoler)
-|====
+"tests_unitaires.adoc",'tests_intefration.adoc',"tests_scenario.adoc".
 
-Module Application Android:
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Remarques
-|connexion | mot de passe et nom d'utilisateur| "vous n'avez pas de compte" ou page principale de l'application|passe par la base de donnée
-|====
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Fait |Remarques
-|reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
-|====
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Fait |Remarques
-|afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
-|====
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Fait |Remarques
-|afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
-|====
