@@ -74,7 +74,6 @@ Module Base de données:
 
 [cols=",^,^,,",options="header",]
 |====
-|Fonction |Entrées |Sorties |Fait |Remarques
-|reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
+|Fonction |Entrées |Sorties |Fait |Remarques 
 | | | | | 
 |====
