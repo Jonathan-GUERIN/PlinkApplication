@@ -36,32 +36,45 @@ Module IA:
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-|Classification de l'image | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format (à fignoler)
+|Classification de l'image conditions artificielles fond unicouleur | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Test initiale avec des photos prises en laboratoire (étape 1)
+|Classification de l'image conditions réelles fond unicouleur | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Test initiale avec des photos prises sur smartphone mais avec un fond unicouleur (étape 2)
+|Détection de feuille et séparation par rapport au décor| Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Ce test ne se fera qu'après avoir réussi à classifier des images sur un fond unicouleur (étape 3)
+|Classification de l'image | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Photo similaire à celle que l'utilisateur prendra: résolution, éclairage aléatoire, background, format (à fignoler) (étape 4)
+|Réponse systématique au bon format | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Le réseau doit toujours fournir une réponse sous le format attendu
+|Détection d'incertitude | Photo traitée type utilisateur| Vecteur des probabilités d'appartenance aux classes| Non| Le réseau doit être capable de savoir qu'il est incertain (vecteur de probabilités équiprobables) si on lui fournit une image incertaine (degré d'incertitude à mesurer)
+|====
+
+Module Traitement Image:
+[cols=",^,^,,",options="header",]
+|====
+|Fonction |Entrées |Sorties |Fait |Remarques
+|Conversion de format | Photo type utilisateur| Image traitée bon format (dimension et type fichier)| Non| Sortie recevable par le réseau de neurone
+|Traitement image | Photo type utilisateur| Image traitée | Non| Ajustement luminosité et éclairage
+|Traitement image | Photo type utilisateur, feuille avec fond saturé | Image traitée, feuille avec fond unicouleur | Non| Pas obligatoire, cette étape pourra être réalisée par le réseau de neurone
 |====
 
 Module Application Android:
-////
-[cols=",^,^,,",options="header",]
-|====
-|Fonction |Entrées |Sorties |Remarques
-|connexion | mot de passe et nom d'utilisateur| "vous n'avez pas de compte" ou page principale de l'application|passe par la base de donnée
-|====
-////
+
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
 |reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
 |afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
 |====
-////
+
+Module Serveur:
+
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-|afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
+| | | | | 
 |====
-////
+
+Module Base de données:
+
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-|afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
+|reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
+| | | | | 
 |====
