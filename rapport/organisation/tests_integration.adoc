@@ -23,9 +23,8 @@ test :
 * action ou entrée à appliquer
 * réaction ou sortie attendue.
 ////
-=== Tests Unitaires (PAN2+)
+=== Tests Intégrations (PAN2+)
 
-Module IA:
 ////
 [cols=",^,^,,",options="header",]
 |====
