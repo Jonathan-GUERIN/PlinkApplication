@@ -45,7 +45,45 @@ Module IA:
 | 
 -réponse de si identifiants bons, +
 -réponse si compte créé
-
-
+|2 | Serveur| Android| 
+-diagnostic de maladie, +
+-liste des produits, +
+-liste des tutos de soins, +
+-envoie de l’historique
+| 
+-diagnostic de maladie, +
+-liste des produits, +
+-liste des tutos de soins, +
+-envoie de l’historique
+|3 | Serveur| Traitement Image| 
+-envoi de la photo non traitée
+| 
+-photo du smartphone
+|4 | Traitement Image| IA| 
+-envoi de la photo traitée
+| 
+-image traitée
+|5 | IA| Serveur| 
+-envoi du diagnostic
+| 
+-diagnostic
+|6 | BDD| Serveur| 
+-historique, +
+-liste des produits, +
+-listes des soins
+| 
+-historique, +
+-liste des produits, +
+-listes des soins
+|7 | Serveur| BDD| 
+-identifiants, mdp, +
+-informations d’inscription, +
+-photo, +
+-diagnostics
+| 
+-identifiants, mdp, +
+-informations d’inscription, +
+-photo, +
+-diagnostics
 |====
 
