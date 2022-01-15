@@ -14,17 +14,18 @@ précision.
 Si c’est une interface entre deux blocs électroniques, c’est une description
 des signaux électroniques ou protocoles utilisés.
 ////
-image::../images/decoupage_architectural.jpg[Découpage Architectural, 700, 500]
+image::../../images/decoupage_architectural.jpg[Découpage Architectural, 700, 500]
 
 ==== InterfaceBloc 1 - 4
 
-Interface de 1 vers 4:
+Interface de 1 vers 4 (Android vers Serveur):
 
--Transmission de la photo du smartphone à la base de donnée pour son traitement et son ajout dans l'historique de l'utilisateur
--Transmission des données de l'utilisateur (identifiants, mot de passe)
--Requêtes de l'utilisateur pour accéder à ses bases de données
+-Transmission de la photo du smartphone à la base de donnée pour son traitement et son ajout dans l'historique de l'utilisateur, format photo jpeg ou png, cela dépend de l'appareil ou de l'utilisateur, +
+-Transmission des données de l'utilisateur (identifiants, mot de passe), +
+-Requêtes de l'utilisateur pour accéder à ses bases de données (historique utilisateur), +
+-Envoi d'information de l'utilisateur (maladies reconnues, préférences..)
 
-Interface de 4 vers 1:
+Interface de 4 vers 1 (Serveur vers Android):
 
 -Transmission des informations sur: le type de plante qui a été détectée, les maladies possibles, les soins possibles à apporter (articles de journaux, produits à appliquer, contacts de spécialiste)
 -Transmission des informations à afficher dans les notifications de l'application. 
@@ -37,13 +38,13 @@ Interface de 4 vers 1:
 
 ==== InterfaceBloc 4 - 3
 
-Interface de 4 vers 3:
+Interface de 4 vers 3 (Serveur vers BDD):
 
--Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée des plantes malades.
+-Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée des plantes malades (format traité).
 -Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée de l'historique de l'utilisateur. 
 -Transmission des données de l'utilisateur (identifiants, mot de passe) pour la stocker dans une base de données des comptes utilisateurs.
 
-Interface de 3 vers 4:
+Interface de 3 vers 4 (BDD vers Serveur):
 
 -Transmission des données d'un utilisateur: historique, identifiants et mot de passe (qui restent invisibles pour l'utilisateur (au cas où ce n'est pas le détenteur du compte) mais qui permettent de comparer avec ce que l'utilisateur aura rentrer pour s'authentifier).
 -Transmission des calendrier de notifications (rappels etc)
