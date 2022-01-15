@@ -49,16 +49,18 @@ Module IA:
 -diagnostic de maladie, +
 -liste des produits, +
 -liste des tutos de soins, +
--envoie de l’historique
+-envoi de l’historique de l'utilisateur, +
+-calcul des deadlines pour les produits
 | 
 -diagnostic de maladie, +
 -liste des produits, +
 -liste des tutos de soins, +
--envoie de l’historique
+-envoie de l’historique, +
+-notifications
 |3 | Serveur| Traitement Image| 
 -envoi de la photo non traitée
 | 
--photo du smartphone
+-traitement de l'image
 |4 | Traitement Image| IA| 
 -envoi de la photo traitée
 | 
@@ -79,7 +81,7 @@ Module IA:
 -identifiants, mdp, +
 -informations d’inscription, +
 -photo, +
--diagnostics
+-diagnostics effectués
 | 
 -identifiants, mdp, +
 -informations d’inscription, +
