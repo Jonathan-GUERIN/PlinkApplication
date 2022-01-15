@@ -23,7 +23,7 @@ test :
 * action ou entrée à appliquer
 * réaction ou sortie attendue.
 ////
-=== Plans de test (PAN2+)
+=== Tests Unitaires (PAN2+)
 
 Module IA:
 ////
@@ -60,6 +60,10 @@ Module Application Android:
 |Fonction |Entrées |Sorties |Fait |Remarques
 |reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
 |afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
+|Tester la page d’inscription, voir si les champs de saisie de l’identifiant et du mot
+de passe sont bien disposés et fonctionnent. |  Identifiants, Mot de passe (type String)| aucune pour le PAN2| Non| 
+|Tester la page où on prend la photo et voir si la photo est bien importée dans
+l’application pour être visionnée. |  Appuyer sur le bouton « prendre une photo »| affichage de la photo prise + affichage d’un bouton caché « Suivant »| Non|
 |====
 
 Module Serveur:

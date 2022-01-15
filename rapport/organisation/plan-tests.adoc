@@ -25,6 +25,8 @@ test :
 ////
 === Plans de test (PAN2+)
 
+Cette section décrit les plans de test, mais les tests précis sont explicités dans les fichiers:
+"tests_unitaires.adoc",'tests_intefration.adoc',"tests_scenario.adoc"
 Module IA:
 ////
 [cols=",^,^,,",options="header",]
