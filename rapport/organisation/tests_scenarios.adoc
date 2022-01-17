@@ -29,10 +29,10 @@ Ceci présente les scénarios qu'il faudra tester sur l'application une fois ter
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Remarques
-| Tester l'inscription | Informations d'inscription (nom, prénom, email, identifiant, mdp)| Confirmation de création du compte sur l'application|
-|Tester la connexion à son compte | Rentrer l'identifiant, le mot de passe de son compte| Confirmation de connexion à son compte, accès à son tableau de bord|
-|Tester la détection de maladie en prenant une photo en conditions réelles| Photo prise sur l'application| Résultats (pourcentage) à afficher sur l'appli|
-|Pouvoir visualiser les produits sanitaires de soins | Diagnostic | Affichage des produits (photo et lien associé)|
-|Pouvoir visualiser son historique | Données liées au compte| Historique|
+| Tester l'inscription | Informations d'inscription (nom, prénom, email, identifiant, mdp)| Confirmation de création du compte sur l'application||
+|Tester la connexion à son compte | Rentrer l'identifiant, le mot de passe de son compte| Confirmation de connexion à son compte, accès à son tableau de bord||
+|Tester la détection de maladie en prenant une photo en conditions réelles| Photo prise sur l'application| Résultats (pourcentage) à afficher sur l'appli||
+|Pouvoir visualiser les produits sanitaires de soins | Diagnostic | Affichage des produits (photo et lien associé)||
+|Pouvoir visualiser son historique | Données liées au compte| Historique||
 |====
 
