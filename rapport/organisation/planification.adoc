@@ -26,7 +26,7 @@
 |répartition de la parole | Tout le monde| 15/11| Non|
 |répétition | Tout le monde| 15/11| Non|
 |====
-////
+
 ==== Taches / PAN2 25/01/22
 
 ===== Générales
@@ -36,11 +36,11 @@
 [cols=",^,^,,",options="header",]
 |====
 |Tâche |Qui |Quand |Fait |Remarques
-|mise à jour selon remarques du jury | | | |
-|mise à jour de l’architecture | | | |
-|interfaces | | | |
-|plan de test par module et global | | | |
-|avancement | | | |
+|mise à jour selon remarques du jury | Jonathan et Pauline| 19/01| Oui| Correction pour le détourage et amélioration des interfaces
+|mise à jour de l’architecture | Jonathan et Pauline| 19/01| Oui| Ajout de la BDD Android et explicitation des flêches
+|interfaces | Jonathan| 19/01| Oui| Finir complètement les interfaces
+|plan de test par module et global | Jonathan et Pauline| 19/01| Oui| Tests unitaires en partie, finir tests intégration et tests scénarios
+|avancement | Jonathan| 19/01| Oui| Compléter l'avancement des tâches dans le rapport
 |====
 
 * Prendre rdv avec vos experts pour le PAN2
@@ -48,7 +48,12 @@
 [cols=",^,^,,",options="header",]
 |====
 |Tâche |Qui |Quand |Fait |Remarques
-|module 1 | | | |
+|module IA | Jonathan et Alex| à venir| Non| l'expert nous reverra ses créneaux
+|module I&T | Jonathan et Pauline| 19/01| Non| Rdv pris
+|module Android | | | Non| 
+|module BDD | | | Non| 
+|module CCS | | | Non| 
+|module SES | | | Non| 
 |====
 
 ===== Modules
@@ -65,7 +70,54 @@
 |Plan de test | | |
 |====
 
-* Autres modules
+* IA
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Installation de Pytorch | 10/01| Oui|
+|Apprendre les bases des réseaux convolutionnels | 10/01| Oui|
+|Conception d'un réseau de neurone | 10/01| Non|
+|Data enhencement | 25/01| Non|
+|Plan de test | 25/01| Oui|
+|====
+
+* BDD
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+| | | |
+|====
+
+* CCS
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+| | | |
+|====
+
+* I&T
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Tests Unitaires | 19/01| Oui pour les modules IA et Android|
+|Tests Intégration | 19/01| Oui|
+|Tests Scénarios | 19/01| Oui|
+|Schéma d'architecture | 19/01| Oui|
+|Interfaces | 19/01| Oui|
+|====
+
+* SES
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+| | | |
+|====
+
 
 ==== Tâches / PAN3 19/04/22
 
@@ -109,4 +161,3 @@
 |====
 
 * …
-////
