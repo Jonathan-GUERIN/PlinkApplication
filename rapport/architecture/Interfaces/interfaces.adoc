@@ -109,6 +109,7 @@ Interface de 2 vers 5:
 ==== InterfaceBloc 3 - 5
 
 Interface de 3 vers 5:
+
 - Le réseau de neurones s'appuie sur la base de donnée constamment enrichie pour reconnaître plante et maladies, +
 - Ceci reste une éventualité qui ne sera pas nécessairement implémentée.
 

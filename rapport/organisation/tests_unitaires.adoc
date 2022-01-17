@@ -71,7 +71,11 @@ Module Serveur:
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques
-| | | | | 
+|Tester la réception d'une requête | Requête depuis le client| message "ok" fait par la fonction appelée par la requête| Non| 
+|Tester la réception d'une image | Image| message "ok" fait par la fonction appelée par la requête et appel du module traitement image| Non| 
+|Tester la gestion de la BDD | Appel d'une fonction| message "ok" fait par la fonction appelée par la requête et vérification des modifications dans la base SQL avec une comparaison| Non| 
+|Tester la réception du diagnostic | Diagnostic| message "ok" fait par la fonction appelée par la requête et envoi à la BDD| Non| 
+|Tester les envois de notification | Notifications| message "ok" fait par la fonction appelée par la requête et envoi au client de notifications calculées à partir de la BDD| Non| 
 |====
 
 Module Base de données:
@@ -79,5 +83,10 @@ Module Base de données:
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Fait |Remarques 
-| | | | | 
+|Ajout d'un nouvel utilisateur (id, mdp) | Appel d'une fonction| message "ok" fait par la fonction appelée par la requête et vérification des modifications dans la base SQL avec une comparaison| Non| 
+|Ajout d'une information d'utilisateur | Appel d'une fonction| message "ok" fait par la fonction appelée par la requête et vérification des modifications dans la base SQL avec une comparaison| Non| 
+|Ajout d'un nouvelle photo | Appel d'une fonction| message "ok" fait par la fonction appelée par la requête et vérification des modifications dans la base SQL avec une comparaison| Non| 
+|Ajout d'un nouveau diagnostic | Appel d'une fonction| message "ok" fait par la fonction appelée par la requête et vérification des modifications dans la base SQL avec une comparaison| Non| 
+|Ajout d'un nouveau traitement | Appel d'une fonction| message "ok" fait par la fonction appelée par la requête et vérification des modifications dans la base SQL avec une comparaison| Non|
+
 |====
