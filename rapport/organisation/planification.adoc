@@ -48,7 +48,7 @@
 [cols=",^,^,,",options="header",]
 |====
 |Tâche |Qui |Quand |Fait |Remarques
-|module 1 | | | |
+|module Intégration et tests | Jonathan et Pauline avec Yuan Yao| 19/01| |
 |====
 
 ===== Modules
@@ -58,11 +58,11 @@
 [cols=",^,^,",options="header",]
 |====
 |Tâche |Quand |Fait |Remarques
-|Installation de l’outil Android Studio | | |
-|TP Android | | |
-|Squelette d’application | | |
+|Installation de l’outil Android Studio | 9/11/21|Oui |
+|TP Android |9/11/21 | Oui| Création d'une première application grâce au tutoriel OpenClassroom|
+|Squelette d’application |Moi de janvier 22 | Oui| Création des premières pages de l'appli pour se familiariser avec Android Studio|
 |GUI | | |
-|Plan de test | | |
+|Plan de test |17/01/22 | En train|
 |====
 
 * Autres modules
