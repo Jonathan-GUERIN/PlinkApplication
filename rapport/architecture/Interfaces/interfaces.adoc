@@ -20,17 +20,17 @@ image::../../images/decoupage_architectural.jpg[Découpage Architectural, 700, 5
 
 Interface de 1 vers 4 (Android vers Serveur):
 
--Transmission de la photo du smartphone à la base de donnée pour son traitement et son ajout dans l'historique de l'utilisateur, format photo jpeg ou png, cela dépend de l'appareil ou de l'utilisateur, +
--Transmission des données de l'utilisateur (identifiants, mot de passe), +
--Requêtes de l'utilisateur pour accéder à ses bases de données (historique utilisateur), +
--Envoi d'information de l'utilisateur (maladies reconnues, préférences..)
+- Transmission de la photo du smartphone à la base de donnée pour son traitement et son ajout dans l'historique de l'utilisateur, format photo jpeg ou png, cela dépend de l'appareil ou de l'utilisateur, +
+- Transmission des données de l'utilisateur (identifiants, mot de passe), +
+- Requêtes de l'utilisateur pour accéder à ses bases de données (historique utilisateur), +
+- Envoi d'information de l'utilisateur (maladies reconnues, préférences..)
 
 Interface de 4 vers 1 (Serveur vers Android):
 
--Transmission des informations sur: le type de plante qui a été détectée, les maladies possibles, les soins possibles à apporter (articles de journaux, produits à appliquer, contacts de spécialiste), +
--Transmission des informations à afficher dans les notifications de l'application, + 
--Transmission de l'état de connexion du compte utilisateur (identifiant et mot de passe valide donc le compte s'ouvre), +
--Les données fournies par le serveur sont issues de la base de données et les droits de l'utilisateur restreint pour sécuriser les requêtes
+- Transmission des informations sur: le type de plante qui a été détectée, les maladies possibles, les soins possibles à apporter (articles de journaux, produits à appliquer, contacts de spécialiste), +
+- Transmission des informations à afficher dans les notifications de l'application, + 
+- Transmission de l'état de connexion du compte utilisateur (identifiant et mot de passe valide donc le compte s'ouvre), +
+- Les données fournies par le serveur sont issues de la base de données et les droits de l'utilisateur restreint pour sécuriser les requêtes
 
 
 
@@ -40,14 +40,14 @@ Interface de 4 vers 1 (Serveur vers Android):
 
 Interface de 4 vers 3 (Serveur vers BDD):
 
--Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée des plantes malades (format traité), +
--Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée de l'historique de l'utilisateur, +
--Transmission des données de l'utilisateur (identifiants, mot de passe) pour la stocker dans une base de données des comptes utilisateurs.
+- Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée des plantes malades (format traité), +
+- Transmission de la photo et des diagnostics sur les maladies, et le type de plante pour l'ajouter à la base de donnée de l'historique de l'utilisateur, +
+- Transmission des données de l'utilisateur (identifiants, mot de passe) pour la stocker dans une base de données des comptes utilisateurs.
 
 Interface de 3 vers 4 (BDD vers Serveur):
 
--Transmission des données d'un utilisateur: historique, identifiants et mot de passe (qui restent invisibles pour l'utilisateur (au cas où ce n'est pas le détenteur du compte) mais qui permettent de comparer avec ce que l'utilisateur aura rentrer pour s'authentifier), +
--Transmission des calendrier de notifications (rappels etc)
+- Transmission des données d'un utilisateur: historique, identifiants et mot de passe (qui restent invisibles pour l'utilisateur (au cas où ce n'est pas le détenteur du compte) mais qui permettent de comparer avec ce que l'utilisateur aura rentrer pour s'authentifier), +
+- Transmission des calendrier de notifications (rappels etc)
 
 ==== InterfaceBloc avec le bloc 4:
 Interface de 1 vers 4:
@@ -64,7 +64,7 @@ Interface de 4 vers 2:
 Interface 2 vers 4:
 
 - Le module reçoit ensuite les images traitées fournies par le bloc 2, +
--Transmission de la photo réceptionnée à la partie qui gère le détourage des plantes et le formatage des images pour qu'elles soient conformes au type de photos de la base de donnée. 
+- Transmission de la photo réceptionnée à la partie qui gère le détourage des plantes et le formatage des images pour qu'elles soient conformes au type de photos de la base de donnée. 
 
 Interface 4 vers 3:
 
@@ -80,42 +80,42 @@ Interface 5 vers 4:
 
 - Le serveur reçoit ensuite le dignostic fournit par le réseau de neurone pour le renvoyer à l'application Android (bloc 1) sous la forme d'un traitement à appliquer, +
 - diagnostic sous format texte, ou json pour traduire un vecteur de probabiltés, +
--Transmission des informations sur la plante reconnue, et sur les maladies possibles avec leur pourcentage de sureté. 
+- Transmission des informations sur la plante reconnue, et sur les maladies possibles avec leur pourcentage de sureté. 
 
 Interface 4 vers 3:
 
 - C'est aussi le serveur qui enverra les notifications utilisateurs au bloc 1, calculées à partir de la base de données (bloc 3), +
--identifiants, mdp des utilisateurs +
--informations d’inscription, +
--changements d'information de l'utilisateur, +
--ajouts de nouveaux éléments (nouveaux dignostics) effectués par l'utilisateur, +
--photos prises par les utilisateurs 
+- identifiants, mdp des utilisateurs +
+- informations d’inscription, +
+- changements d'information de l'utilisateur, +
+- ajouts de nouveaux éléments (nouveaux dignostics) effectués par l'utilisateur, +
+- photos prises par les utilisateurs 
 
 Interface 4 vers 1:
 
 - Le serveur peut aussi renvoyer au bloc 1 des données utilisateurs selon les requêtes faites sur l'application, +
 - C'est aussi le serveur qui sécurisera l'accès à la base de données et à l'application via une surveillance des connexions utilisateurs, +
--Transmission des informations sur: le type de plante qui a été détectée, les maladies possibles, les soins possibles à apporter (articles de journaux, produits à appliquer, contacts de spécialiste), +
--Transmission des informations à afficher dans les notifications de l'application, + 
--Transmission de l'état de connexion du compte utilisateur (identifiant et mot de passe valide donc le compte s'ouvre), +
--Les données fournies par le serveur sont issues de la base de données et les droits de l'utilisateur restreint pour sécuriser les requêtes
+- Transmission des informations sur: le type de plante qui a été détectée, les maladies possibles, les soins possibles à apporter (articles de journaux, produits à appliquer, contacts de spécialiste), +
+- Transmission des informations à afficher dans les notifications de l'application, + 
+- Transmission de l'état de connexion du compte utilisateur (identifiant et mot de passe valide donc le compte s'ouvre), +
+- Les données fournies par le serveur sont issues de la base de données et les droits de l'utilisateur restreint pour sécuriser les requêtes
 
 ==== InterfaceBloc 2 - 5
 
 Interface de 2 vers 5:
 
--Envoi de la photo traitée à la partie IA pour une reconnaissance de la plante et des maladies possibles
+- Envoi de la photo traitée à la partie IA pour une reconnaissance de la plante et des maladies possibles
 
 ==== InterfaceBloc 3 - 5
 
 Interface de 3 vers 5:
--Le réseau de neurones s'appuie sur la base de donnée constamment enrichie pour reconnaître plante et maladies, +
--Ceci reste une éventualité qui ne sera pas nécessairement implémentée.
+- Le réseau de neurones s'appuie sur la base de donnée constamment enrichie pour reconnaître plante et maladies, +
+- Ceci reste une éventualité qui ne sera pas nécessairement implémentée.
 
 
 
 ==== InterfaceBloc 6 - 1 à 5
 
--Les codes développés dans les blocs 1 à 5 devront s'intégrer les uns les autres. 
+- Les codes développés dans les blocs 1 à 5 devront s'intégrer les uns les autres. 
 
 
