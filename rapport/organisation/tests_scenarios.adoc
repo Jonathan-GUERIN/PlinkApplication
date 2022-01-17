@@ -25,7 +25,7 @@ test :
 ////
 === Tests Scénario (PAN2+)
 Ceci présente les scénarios qu'il faudra tester sur l'application une fois terminée.
-////
+
 [cols=",^,^,,",options="header",]
 |====
 |Fonction |Entrées |Sorties |Remarques
@@ -35,4 +35,4 @@ Ceci présente les scénarios qu'il faudra tester sur l'application une fois ter
 |Pouvoir visualiser les produits sanitaires de soins | Diagnostic | Affichage des produits (photo et lien associé)|
 |Pouvoir visualiser son historique | Données liées au compte| Historique|
 |====
-////
+
