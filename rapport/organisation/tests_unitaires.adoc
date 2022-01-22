@@ -65,8 +65,8 @@ de passe sont bien disposés et si l'identifiant et le mdp sont bien stockés da
 |Tester la page où on prend la photo et voir si la photo est bien importée dans
 l’application pour être visionnée et la stocker dans une variable |  Appuyer sur le bouton « prendre une photo »| affichage de la photo prise + affichage d’un bouton caché « Suivant »| Non|
 |Tester le tableau de bord et voir si chaque action amène sur la bonne page|Click d'utilisateur|page sélectionnée|Non|
-|Tester la page d'inscription (même idée que la page de connexion)|Infos d'inscription (String)|Varaibles qui ont stockées ces infos|Non
-|Tester une pub pop-up| Pub|Affichage de la pub|Non
+|Tester la page d'inscription (même idée que la page de connexion)|Infos d'inscription (String)|Varaibles qui ont stockées ces infos|Non|
+|Tester une pub pop-up| Pub|Affichage de la pub|Non|
 |====
 
 Module Serveur:
