@@ -49,8 +49,8 @@
 |====
 |Tâche |Qui |Quand |Fait |Remarques
 |module IA | Jonathan et Alex| à venir| Non| l'expert nous reverra ses créneaux
-|module I&T | Jonathan et Pauline| 19/01| Non| Rdv pris
-|module Android | | | Non| 
+|module I&T | Jonathan et Pauline| 19/01| Oui| Rdv pris
+|module Android | Martin et Pauline| | Non| Demande envoyée, pas encore de réponse
 |module BDD | | | Non| 
 |module CCS | | | Non| 
 |module SES | | | Non| 
