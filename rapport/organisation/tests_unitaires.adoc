@@ -61,9 +61,12 @@ Module Application Android:
 |reconnaissance de maladie | photo à prendre et à envoyer au module IA| probabilité pour chaque maladie, proposition de traitement et contact d'expert| Non| 
 |afficher l'historique | données des recherches faites auparavant, stoquées dans la base de donnée| les mêmes données, mais en mieux organisée, avec une belle interface graphique| Non| 
 |Tester la page d’inscription, voir si les champs de saisie de l’identifiant et du mot
-de passe sont bien disposés et fonctionnent. |  Identifiants, Mot de passe (type String)| aucune pour le PAN2| Non| 
+de passe sont bien disposés et si l'identifiant et le mdp sont bien stockés dans des variables |  Identifiants, Mot de passe (type String)| variables contenant identifiant et mdp| Non| 
 |Tester la page où on prend la photo et voir si la photo est bien importée dans
-l’application pour être visionnée. |  Appuyer sur le bouton « prendre une photo »| affichage de la photo prise + affichage d’un bouton caché « Suivant »| Non|
+l’application pour être visionnée et la stocker dans une variable |  Appuyer sur le bouton « prendre une photo »| affichage de la photo prise + affichage d’un bouton caché « Suivant »| Non|
+|Tester le tableau de bord et voir si chaque action amène sur la bonne page|Click d'utilisateur|page sélectionnée|Non|
+|Tester la page d'inscription (même idée que la page de connexion)|Infos d'inscription (String)|Varaibles qui ont stockées ces infos|Non
+|Tester une pub pop-up| Pub|Affichage de la pub|Non
 |====
 
 Module Serveur:
