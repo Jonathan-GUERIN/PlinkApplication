@@ -1,0 +1,2 @@
+module ia_tests {
+}
