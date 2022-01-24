@@ -5,7 +5,7 @@ import java.io.File;
 public interface Server {
 	/*
 	 * send a picture to the module TT
-	 * 
+	 * @param picture jpg 256x256
 	 */
 	public int sendPicture(File picture);
 	/*
