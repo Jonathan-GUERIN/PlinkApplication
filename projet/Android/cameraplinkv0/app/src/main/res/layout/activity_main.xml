@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo" />
+    <Button
+        android:id="@+id/btnpic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity = "center_horizontal"
+        android:gravity="center"
+        android:text="Prendre une photo"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbtn"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Commencer le diagnostic"
+        android:visibility="invisible"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
