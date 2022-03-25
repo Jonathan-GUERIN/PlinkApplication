@@ -90,12 +90,15 @@
 | | | |
 |====
 
-* CCS
+* Module CCS
 
 [cols=",^,^,",options="header",]
 |====
 |Tâche |Quand |Fait |Remarques
-| | | |
+|Programmation d'une v0 du client |23/01/2022 |Oui |Le multithreading n'est pas encore implémenté
+|Programmation d'une v0 du serveur |23/01/2022 |Oui |Réception d'une image choisie par le client et enregistrement de cette image
+|Programmation des interfaces avec les autres modules |23/01/2022| Oui |
+|Plan de test |22/01/2022 |Oui |
 |====
 
 * I&T
